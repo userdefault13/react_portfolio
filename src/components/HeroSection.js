@@ -7,7 +7,7 @@ const HeroSection = ({ scrollToSection }) => {
         id="hero"
         className="h-screen relative flex justify-end overflow-hidden bg-cover bg-no-repeat"
         style={{
-            backgroundImage: "url('/hero.svg')", // Use '/hero.svg' directly
+            backgroundImage: '/hero.svg', // Use '/hero.svg' directly
             backgroundPosition: 'right',
             backgroundSize: '50%', // Reduce the size of the background image
         }}
