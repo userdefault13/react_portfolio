@@ -1,0 +1,14 @@
+/* styles/skillssection.css */
+#skills {
+  background-color: #E0777D;
+}
+.flex-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1rem;
+}
+
+.skill-card {
+  width: 100%;
+  text-align: center;
+}

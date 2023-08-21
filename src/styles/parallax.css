@@ -1,0 +1,20 @@
+#hero {
+    position: relative;
+    animation: slideLeft 5s infinite alternate;
+     /* Set a background color for the container */
+    
+}
+
+
+.bg-image {
+    position: absolute;
+    width: 10vw; /* Set width to 25% of the viewport width */
+    height: 15vh; /* Set height to 25% of the viewport height */
+    background-image: url('../../public/hero.svg'); /* Replace with the path to your background image */
+    background-size: cover;
+    left: 87%;
+    top: 40%;
+    transform: scale(7); /* Apply the scale transform for parallax */
+    z-index: -1;
+    overflow: hidden;
+}
