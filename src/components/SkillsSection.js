@@ -16,37 +16,37 @@ const SkillsSection = ({ scrollToSection }) => {
     },
     {
       skillName: 'JavaScript',
-      imageSrc: '/path/to/javascript-icon.png', 
+      imageSrc: '/javascript.png', 
       description: 'Adding interactivity to web pages.',
     },
     {
       skillName: 'React.js',
-      imageSrc: '/path/to/react-icon.png', 
+      imageSrc: '/react.png', 
       description: 'Building user interfaces with React.',
     },
     {
       skillName: 'Node.js',
-      imageSrc: '/path/to/node-icon.png', 
+      imageSrc: '/node.png', 
       description: 'Building server-side applications with Node.js.',
     },
     {
       skillName: 'Express.js',
-      imageSrc: '/path/to/express-icon.png', 
+      imageSrc: '/express.png', 
       description: 'Building web applications with Express.js.',
     },
     {
       skillName: 'MongoDB',
-      imageSrc: '/path/to/mongodb-icon.png', 
+      imageSrc: '/mongo.png', 
       description: 'Working with MongoDB databases.',
     },
     {
-      skillName: 'SQL',
-      imageSrc: '/path/to/sql-icon.png', 
+      skillName: 'MySQL',
+      imageSrc: '/mysql.svg', 
       description: 'Working with relational databases.',
     },
     {
       skillName: 'Git',
-      imageSrc: '/path/to/git-icon.png', 
+      imageSrc: '/git.svg', 
       description: 'Version control and collaboration with Git.',
     },
     {
